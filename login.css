@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url(las.jpg) ;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 300px;
+    padding: 20px;
+    background-color: palegreen;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: green;
+    color: green;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: greenyellow;
+  }
+  
+  p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

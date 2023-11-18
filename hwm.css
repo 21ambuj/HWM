@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(HWM.png);
+    background-attachment: fixed;
+
+}
+
+header {
+    background-color:green;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+}
+#user-observations{
+    background-color: yellowgreen;
+    margin-bottom: 100px;
+      
+}
+#measurement-submissions{
+    background-color: plum;
+    margin-bottom: 100px;
+}
+#community-collaboration{
+    background-color: palegreen;
+    margin-bottom: 100px;
+}
+#data-driven-decision-making{
+    background-color: powderblue;
+    margin-bottom: 100px;
+
+}
+
+h1 {
+    font-size: 2em;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+footer {
+    background-color:green;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/*body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}*/
+
+.name-animation {
+    font-size: 2em;
+    display: inline-block;
+    text-align: center;
+}
+
+.letter {
+    display: inline-block;
+    animation: bounce 1s infinite alternate;
+    animation-delay: var(--delay);
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}

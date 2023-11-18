@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Observation Reporting</title>
+    <link rel="stylesheet" href="o.css">
+</head>
+<body>
+    <header>
+        <h1>Waste Observation Reporting</h1>
+    </header>
+
+    <section id="observation-form">
+        <h2>Report Your Observations</h2>
+        <form>
+            <label for="observationType">Type of Observation:</label>
+            <select id="observationType" name="observationType" required>
+                <option value="wasteAccumulation">Waste Accumulation</option>
+                <option value="illegalDumping">Illegal Dumping</option>
+                <option value="cleanupNeeded">Area in Need of Cleanup</option>
+            </select>
+
+            <label for="location">Location (Geo-tagged):</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="observationDescription">Description:</label>
+            <textarea id="observationDescription" name="observationDescription" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Waste Observation Reporting</p>
+    </footer>
+</body>
+</html>
